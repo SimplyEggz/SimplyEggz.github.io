@@ -1,5 +1,5 @@
 const CACHE_NAME = 'Drinks PWA Convert'
-const urlsToCache = ['./', './randomcocktail.html'];
+const urlsToCache = ['./', './index.html'];
 
 self.addEventListener('install', event => {
     event.waitUntil(caches.open(CACHE_NAME)
